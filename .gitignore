@@ -1,0 +1,16 @@
+backend/__pycache__/
+backend/models/moodika/__pycache__/
+backend/models/moodika/config.py
+backend/wrappers/__pycache__/
+frontend/.idea/
+frontend/.vscode/
+frontend/node_modules/
+frontend/build
+frontend/.DS_Store
+frontend/*.tgz
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.changelog
+frontend/.npm/
+frontend/yarn.lock

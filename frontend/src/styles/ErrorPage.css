@@ -1,0 +1,10 @@
+.error-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-element .p-card {
+    text-align: center;
+}

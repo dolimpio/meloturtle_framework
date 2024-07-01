@@ -1,0 +1,20 @@
+/* Layout*/
+
+.layout-main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.layout-main-navbar, .layout-main-footer {
+    flex: none;
+}
+
+.layout-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

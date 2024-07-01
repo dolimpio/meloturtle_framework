@@ -1,0 +1,20 @@
+.generate-button {
+    padding: 1rem 1rem; /* Adjust padding to control size */
+    font-size: 1rem; /* Adjust font size if needed */
+    width: auto; /* Ensure it doesn't stretch */
+    display: block;
+    margin: 1rem auto; /* Center the button horizontally */
+    width: 100%;
+
+}
+
+.p-card {
+    border-radius: 18px;
+    margin-bottom: 0rem;
+}
+@media (max-width: 768px) {
+    .p-card, .p-card-body {
+        padding: 0.25rem;
+        margin-bottom: 0rem;
+    }
+}

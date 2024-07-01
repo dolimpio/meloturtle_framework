@@ -1,0 +1,125 @@
+
+.playlist-card {
+    margin: 1em auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px; 
+}
+
+.playlist-info {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.playlist-details {
+    background: #17212f;
+    gap: 0.5em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+
+}
+
+.playlist-details p {
+    margin: 0;
+}
+
+.playlist-embed {
+    left: 0;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0px;
+    border-radius:15px
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.custom-delete-button {
+    background-color: #ff4d4d;
+    opacity: 0.7;
+    color: #1f2d40;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-delete-button:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.05);
+}
+
+.custom-delete-button .pi {
+    margin-right: 0.5em;
+}
+
+.playlist-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.button-wrapper {
+    margin-right: 1em;
+}
+
+.selected-genres {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.3em;
+}
+
+.genre-tag {
+    color: white;
+    transition: outline 0.3s;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #17212f;
+    gap: 0.5em;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+@media (min-width: 600px) {
+    .playlist-info {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 599px) {
+    .playlist-details {
+        flex-direction: column;
+        text-align: center;
+    }
+    .playlist-embed {
+        padding-top: 44.5%; 
+    }
+}

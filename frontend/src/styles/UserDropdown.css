@@ -1,0 +1,15 @@
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: 2px solid #ccc;
+
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}

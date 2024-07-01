@@ -1,0 +1,21 @@
+.generator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 0.5rem;
+}
+
+.form-container {
+    padding: 0.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150%;
+    background: #c0c0c0;
+}
+
+.form-container .p-inputtext,
+.form-container .p-dropdown{
+    width: 100%;
+}

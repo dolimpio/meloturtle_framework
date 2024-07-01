@@ -1,0 +1,112 @@
+.about-page {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-card {
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.p-card .p-card-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.p-card .p-card-subtitle {
+    font-size: 1.2rem;
+}
+
+.p-avatar {
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3, p {
+    margin: 0.5rem 0;
+}
+
+.features {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+.p-col-12 {
+    flex: 0 0 100%;
+}
+
+.p-col-4 {
+    flex: 0 0 30%;
+}
+
+.people-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.testimonials-section{
+    flex: 1;
+    min-width: 300px;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.team-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.team-section {
+    flex: 1;
+    min-width: 300px;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+
+}
+.team-item, .testimonial-item{
+    background: #17212f;
+}
+
+@media (max-width: 768px) {
+    .about-page {
+        padding: 0rem;
+    }
+    .p-card, .p-card-body {
+        padding: 0.25rem;
+    }
+
+    .people-wrapper {
+        flex-direction: column;
+    }
+
+    .team-section,
+    .testimonials-section {
+        margin-bottom: 2rem;
+    }
+}
