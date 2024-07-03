@@ -42,6 +42,10 @@ You will need to get the values for:
    - SPOTIFY_CLIENT_SECRET
    - REDIRECT_URI
 
+The REDIRECT_URI should be: 
+```
+http://localhost:8000/api/auth/callback
+```
 ⚠️ Follow only if you want to use the ChatGPT recommendation model:
 2. **Set up OpenAI API Account:** Follow the instructions from the link: https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key. 
 You will need to get the values for:
@@ -71,8 +75,7 @@ meloturtle_framework/backend/backend/services/recommendations_manager/recommenda
    ```bash
    cd meloturtle_framework/backend
    ```
-3. **Set Up Environment Variables:**
-   Create a `.env` file inside the backend directory and add the necessary variables. Make sure to add the BACKEND_ prefix before each variable.
+3. **Set Up Environment Variables:** Inside the backend directory, you should find a `.env` file. Add the data from Spotify's Web API and OpenAI API to these variables. Make sure to add the BACKEND_ prefix before each variable. e.g:
    ```env
    BACKEND_SPOTIFY_CLIENT_ID=your_client_id
    BACKEND_SPOTIFY_CLIENT_SECRET=your_client_secret
@@ -80,7 +83,7 @@ meloturtle_framework/backend/backend/services/recommendations_manager/recommenda
    BACKEND_REDIRECT_URI=your_selected_redirect_uri
    BACKEND_CHATGTP_SECRET=your_chatgpt_secret
    ```
-4. **Go to the deply project directory:**
+4. **Go to the deploy project directory:**
    ```bash
    cd ..
    cd deploy
@@ -93,13 +96,13 @@ meloturtle_framework/backend/backend/services/recommendations_manager/recommenda
    - Open your web browser and go to `http://localhost:3000`.
 
 7. **Sign in with Spotify:**
-   - Users need to authenticate with their Spotify account to use the recommendation features.
+   - Users need to authenticate with their Spotify account to use the recommendation features. Use the ‘Singin’ button on the navbar and then the ‘Login with Spotify’ button to Login.
 
 8. **Describe your Playlist:**
-   - Input your desired moods and emotions in the text box to generate a customized playlist.
+   - After logging, click on the ‘Generator’ option in the navbar. Once in the generation page, input your desired moods and emotions in the text box to generate a playlist with the parameters you want.
 
 9. **Manage Playlists:**
-   - View, edit, and manage your generated playlists within the user interface.
+   - You can save your playlist with the ‘Save’ button at the preview of a playlist after a generation request was sent. View, edit, and manage your generated playlists within the user interface at the ‘Library’ section in the navbar.
 
 ## 🤝 Contributing or using the project
 Please feel free to use any code from this repository.
