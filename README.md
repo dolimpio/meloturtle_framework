@@ -1,10 +1,10 @@
-# 🎶 Meloturtle
+<h1 align="center">🎶 Meloturtle 🎶</h1>
 
 <p align="center">
    <img src="./repository_images/logo_meloturtle.png"  width="250" height="250">
 </p>
 
-## Playlist Recommendation Framework for Spotify
+<h1 align="center"> Playlist Recommendation Framework for Spotify </h1>
 
 Welcome to the repository for the Bachelor's Final Project: "Meloturtle: Playlist Recommendation Framework for Spotify". This project aims to develop a prototype framework that aggregates multiple recommendation systems for playlist generation using Spotify's API, allowing users to customize their recommendations through natural language descriptions.
 
@@ -129,9 +129,6 @@ Please feel free to use any code from this repository.
 This project has an MIT license, check it under LICENSE.
 
 ## 📬 Contact
-<p align="center">
-   <img src="./repository_images/contact_tortoise.png"  width="300">
-</p>
 
 For any questions or feedback, please contact:
 - **dolimpio**
@@ -139,3 +136,7 @@ For any questions or feedback, please contact:
 - **LinkedIn:** [David](https://www.linkedin.com/in/david-olimpio-silva/)
 
 If you are interested in the Ninja Turtle images, please visit: https://www.artstation.com/mattwessel
+
+<p align="center">
+   <img src="./repository_images/contact_tortoise.png"  width="300">
+</p>
