@@ -129,6 +129,9 @@ Please feel free to use any code from this repository.
 This project has an MIT license, check it under LICENSE.
 
 ## 📬 Contact
+<p align="center">
+   <img src="./repository_images/contact_tortoise.png"  width="300">
+</p>
 
 For any questions or feedback, please contact:
 - **dolimpio**
