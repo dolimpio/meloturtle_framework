@@ -10,14 +10,14 @@ Welcome to the repository for the Bachelor's Final Project: "Meloturtle: Playlis
 
 ## 📋 Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
+- [🌟 Introduction](#introduction)
+- [✨ Features](#features)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [📬 Contact](#contact)
 
 ## 🌟 Introduction
 
