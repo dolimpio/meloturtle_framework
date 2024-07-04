@@ -1,6 +1,9 @@
 # 🎶 Meloturtle
 ## Playlist Recommendation Framework for Spotify
 
+
+![Meloturtle Logo](https://github.com/dolimpio/meloturtle_framework/blob/main/logo-meloturtle.png?raw=true)
+
 Welcome to the repository for the Bachelor's Final Project: "Meloturtle: Playlist Recommendation Framework for Spotify". This project aims to develop a prototype framework that aggregates multiple recommendation systems for playlist generation using Spotify's API, allowing users to customize their recommendations through natural language descriptions.
 
 ## 📋 Table of Contents
@@ -30,7 +33,7 @@ In this project, we aim to create a prototype framework that combines various re
 
 The framework's architecture is designed to be modular and extensible, ensuring easy integration of current and future recommendation systems. Below is a high-level overview of the architecture:
 
-![Architecture Diagram](link-architecture-diagram)
+![architecture_diagram](https://file%2B.vscode-resource.vscode-cdn.net/Users/davidsilva/Downloads/Arquitectura.jpg?version%3D1720111938907)
 
 ## ⚙️ Prerequisites
 
@@ -104,6 +107,12 @@ meloturtle_framework/backend/backend/services/recommendations_manager/recommenda
 9. **Manage Playlists:**
    - You can save your playlist with the ‘Save’ button at the preview of a playlist after a generation request was sent. View, edit, and manage your generated playlists within the user interface at the ‘Library’ section in the navbar.
 
+## Images of the app
+![home-page](https://file%2B.vscode-resource.vscode-cdn.net/Users/davidsilva/Downloads/Screenshot%202024-07-04%20at%2011.59.16.png?version%3D1720111977145)
+
+![library_page](https://file%2B.vscode-resource.vscode-cdn.net/Users/davidsilva/Downloads/Screenshot%202024-07-04%20at%2011.58.47.png?version%3D1720111989286)
+
+![generator_page](https://file%2B.vscode-resource.vscode-cdn.net/Users/davidsilva/Downloads/Screenshot%202024-07-03%20at%2003.05.35.png?version%3D1720112021764)
 ## 🤝 Contributing or using the project
 Please feel free to use any code from this repository.
 
