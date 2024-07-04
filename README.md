@@ -3,6 +3,7 @@
 
 
 ![Meloturtle Logo](https://github.com/dolimpio/meloturtle_framework/blob/main/logo-meloturtle.png?raw=true)
+![Alt text](relative%20path/to/repository_images/logo_meloturtle.png?raw=true "Title")
 
 Welcome to the repository for the Bachelor's Final Project: "Meloturtle: Playlist Recommendation Framework for Spotify". This project aims to develop a prototype framework that aggregates multiple recommendation systems for playlist generation using Spotify's API, allowing users to customize their recommendations through natural language descriptions.
 
